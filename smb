@@ -1,1 +1,8 @@
 https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/
+
+nmap -v -script smb-vuln* -p 139,445 10.10.10.40
+
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+
+
+
