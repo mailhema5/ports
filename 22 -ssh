@@ -1,0 +1,3 @@
+
+port 22 ; 
+ssh -i key hype@10.10.10.79
