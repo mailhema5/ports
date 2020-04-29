@@ -4,5 +4,11 @@ nmap -v -script smb-vuln* -p 139,445 10.10.10.40
 
 |   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
 
+---------------------------------------------------
+root@kali:~/Documents/htb/blue# enum4linux -a 10.10.10.40
+Enum4linux is a tool for enumerating information from Windows and Samba systems.
+ It is written in Perl and is basically a wrapper around the Samba tools smbclient, rpclient, net and nmblookup.
+
+
 
 
