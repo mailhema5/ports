@@ -1,0 +1,6 @@
+POP3 110 - view mailbox
+telnet 10.10.10.51 110
+USER mindy
+PASS password 
+LIST - To List the emails 
+RETR 1 - To retrive the mails; 1 is the first message
