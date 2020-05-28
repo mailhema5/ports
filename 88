@@ -1,1 +1,5 @@
 
+If Kerberos pre-authentication is disabled on any of the above accounts, we can use the GetNPUsers impacket script to send a dummy request for authentication. The Key Distribution Center (KDC) will then return a TGT that is encrypted with the user’s password. From there, we can take the encrypted TGT, run it through a password cracker and brute force the user’s password.
+https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py
+
+GetNPUsers.py htb.local/ -dc-ip 10.10.10.161 -request
