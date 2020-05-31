@@ -1,2 +1,6 @@
 first, check if anonymous login is allowed and if we can list the shares that Samba is exposing:
 smbclient -L 10.10.10.3
+_______________
+nmap -v -script smb-vuln* -p 139,445 10.10.10.4
+MS08-067 - python pgm remote code execution 
+________
