@@ -13,3 +13,6 @@ FTP commands :
 use msfvenom to c
 PUT reverse-shell.aspx
 view the shell in browser
+_____
+
+nc 192.168.1.101 21
